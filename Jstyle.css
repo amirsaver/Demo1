@@ -1,0 +1,65 @@
+.backgroundImg{
+    background-image: url("home-header-bg-1@1120.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 0%;
+    background-attachment:fixed;
+    border-radius: 20px;
+    clear: both;
+    width: 100%;
+    object-fit:fill ;
+    --safe-area-top: env(safe-area-inset-top);
+    --safe-area-bottom: env(safe-area-inset-bottom);
+                         line-height: 1;
+    -webkit-text-size-adjust: 100%;
+                        color: #484848;
+                        direction: rtl;
+                        font-weight: 400;
+                         -webkit-font-feature-settings: "ss02";
+                          font-family: JISXV,tahoma;
+                       font-variation-settings: "wght" 400,"rdot" 0;
+                         font-size: 1rem;
+                      box-sizing: border-box;
+                      outline: none;
+    user-select: none;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60%;
+    
+    position: fixed;
+}
+
+.sec-container{
+   position:absolute ;
+   padding-top: 100Px;
+   border: 2px solid red;
+}
+.Scroler{
+   padding-top: 100px;
+   border: 2px solid rgb(0, 255, 183);
+    --safe-area-top: env(safe-area-inset-top);
+    --safe-area-bottom: env(safe-area-inset-bottom);
+                            line-height: 1;
+    -webkit-text-size-adjust: 100%;
+                              color: #484848;
+                             direction: rtl;
+                           font-weight: 400;
+    display: block;
+                            font-family: JISXV,tahoma;
+                            font-variation-settings: "wght" 400,"rdot" 0;
+                         box-sizing: border-box;
+                            outline: none;
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 1rem;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    /* display: flex; */
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    position: relative;}
